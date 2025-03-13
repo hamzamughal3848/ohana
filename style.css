@@ -1,0 +1,250 @@
+.top-list {
+    margin-right:20px;
+    margin-top: 10px
+}
+
+.top-list li{
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+.top-list li a{
+  text-decoration: none;
+  color: white;
+}
+.login{
+  background-color: #34aeeb;
+}
+.search .btn{
+  background-color: #34aeeb;
+  color: white
+}
+.navbar2{
+  background-color: #a1c5ff;
+}
+.nav-item{
+  padding: 10px;
+  border-radius: 10px;
+}
+.nav-item:hover{
+  background-color: #34aeeb;;
+}
+.nav-item a{
+  color: black;
+}
+.nav-item:hover a{
+  color: white;
+}
+.slider-1{
+  background-image: url(./images/slider-bg.jpg);
+  background-size:cover;
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+.bg-layer{
+  background-color: #34aeeb82;
+  width: 100%;
+  height: 80vh;
+}
+.read-btn{
+  background-color: #34aeeb;
+}
+.read-btn:hover{
+  background-color: black;
+}
+.slider-img1 img{
+  border-radius: 50%;
+  height: 500px;
+  width: 500px
+}
+.slide-content{
+  height: auto;
+}
+
+.line hr{
+  width: 70%;
+  float: left;
+  border: 2px solid ;
+}
+.line2{
+  height: 80px;
+}
+.line2 h5{
+  display: inline-block;
+}
+
+.line2 hr{
+  width: 70%;
+  float: right;
+  border: 2px solid ;
+}
+.main-container{
+  height: 100%
+}
+footer{
+  background-image: url(./images/footer-bg.jpg);
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-links ul li a{
+  text-decoration: none;
+  color: white;
+}
+.footer-links ul li{
+  list-style-type: none;
+  float: left;
+  padding: 10px
+}
+.footer-links ul li a:hover{
+  color: #34aeeb82;
+}
+.footer-heading{
+  height: 300px;
+}
+.follow-links ul li a{
+  text-decoration: none;
+  color: white;
+}
+.follow-links ul li{
+  list-style: none;
+  float: left;
+  padding: 0px 10px;
+}
+.follow-links ul li a i{
+  font-size: 30px;
+  transition: 0.2s;
+}
+.follow-links ul li a i:hover{
+  color: #34aeeb82;
+  font-size: 38px;
+}
+.form-bg{
+  background-image: url(./images/form-bg.jpg);
+  height: 91vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form{
+  width: 30%;
+  background-color: #0000006e;
+  padding: 20px;
+  border-radius: 15px;
+}
+img{
+  transition: width 0.3s;
+}
+.main-container img:hover {
+  width:600px;
+  cursor: pointer;
+}
+.name{
+  float: left;
+  padding: 10px;
+}
+.prize{
+  float: right;
+  padding: 10px;
+}
+.p-img{
+  width: 250px;
+  height: 300px;
+}
+.cart-banner{
+  background-color: #34aeeb;
+  padding: 10px;
+}
+.about img{
+  float:left;
+}
+.btn-banner button a{
+  text-decoration: none;
+  color: white;
+}
+.btn-1{
+  float: left;
+}
+.btn-2{
+  float: right;
+}
+.btn-banner{
+  height: 40px;
+}
+.fname{
+  display: inline-block;
+}
+.lname{
+  display: inline-block;
+}
+.check-form input{
+  width: 100%;
+  background-color: #b4e6ff;
+  border-radius: 5px;
+   border: 0px;
+   padding: 3px;
+}
+.check-form label{
+  margin: 5px 0px;
+}
+.fname input{
+  width: 400px;
+}
+.lname input{
+  width: 400px;
+}
+.recip{
+  background-image: url(./images/recip.png);
+  width: 100%;
+  height: 650px;
+  background-repeat: none;
+  background-size: cover;
+}
+.data1{
+  float: left;
+}
+.data2{
+  float: right;
+}
+.recipt-data{
+  height: 25px;
+}
+.f-r{
+  float: right;
+}
+.sub-btn {
+  background-color: #00000054;
+  border-radius: 5px;
+}
+.contact-form input{
+  border: 0px;
+  border-radius: 5px;
+}
+.contact-form label{
+  margin: 5px 0px;
+}
+.bg-color{
+  background-color: #34aeeb73;
+}
+.addproduct{
+  width: 100%;
+  margin: 0px 40px;
+}
+.addproduct input{
+  width: 100%;
+}
+#loader{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+  background: #000 url(./images/loader.gif) no-repeat center center;
+  background-size: 15%;
+}
+.total{
+  display: inline-block;
+  float: right;
+}
